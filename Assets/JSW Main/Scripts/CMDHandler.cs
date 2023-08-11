@@ -27,10 +27,10 @@ public class CMDHandler : MonoBehaviour
         //startInfo.Arguments = "--api-key hs1Z7dB7dCkFwwJWFm2LXMGX " + Application.dataPath + "/" + FindObjectOfType<TakeSelfie>().Username + ".png";
         startInfo.Arguments = "--api-key " + API_KEY + " " + filepath;
 
+        //api - key ->hs1Z7dB7dCkFwwJWFm2LXMGX
         Process.Start(startInfo);
 
         StartCoroutine(CropImage(i));
-        //hs1Z7dB7dCkFwwJWFm2LXMGX
     }
 
     IEnumerator CropImage(int i)

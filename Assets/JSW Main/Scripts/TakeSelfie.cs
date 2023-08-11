@@ -14,7 +14,7 @@ public class TakeSelfie : MonoBehaviour
 
     public RawImage selfieImage;
     int i = 0;
-
+    
     private void OnEnable()
     {
         webCamTexture = new WebCamTexture();
